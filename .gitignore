@@ -1,0 +1,19 @@
+# Secrets — never commit these
+.streamlit/secrets.toml
+.streamlit/combined-ca-bundle.pem
+.streamlit/*.log
+service_account.json
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.agents/
